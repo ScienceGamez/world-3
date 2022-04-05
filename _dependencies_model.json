@@ -1,0 +1,1220 @@
+{
+    "_active_initial_capacity_utilization_fraction": {
+        "initial": {},
+        "step": {
+            "capacity_utilization_fraction_table": 1,
+            "delayed_labor_utilization_fraction": 1
+        }
+    },
+    "_active_initial_current_agricultural_inputs": {
+        "initial": {},
+        "step": {
+            "fraction_of_agricultural_inputs_allocated_to_land_development": 1,
+            "total_agricultural_investment": 1
+        }
+    },
+    "_active_initial_food_ratio": {
+        "initial": {},
+        "step": {
+            "food_per_capita": 1,
+            "subsistence_food_per_capita": 1
+        }
+    },
+    "_delay_persistent_pollution_appearance_rate": {
+        "initial": {
+            "persistent_pollution_generation_rate": 1,
+            "persistent_pollution_transmission_delay": 1
+        },
+        "step": {
+            "persistent_pollution_generation_rate": 1,
+            "persistent_pollution_transmission_delay": 1
+        }
+    },
+    "_integ_arable_land": {
+        "initial": {
+            "initial_arable_land": 1
+        },
+        "step": {
+            "land_development_rate": 1,
+            "land_erosion_rate": 1,
+            "land_removal_for_urban_and_industrial_use": 1
+        }
+    },
+    "_integ_industrial_capital": {
+        "initial": {
+            "initial_industrial_capital": 1
+        },
+        "step": {
+            "industrial_capital_depreciation": 1,
+            "industrial_capital_investment": 1
+        }
+    },
+    "_integ_land_fertility": {
+        "initial": {
+            "initial_land_fertility": 1
+        },
+        "step": {
+            "land_fertility_degredation": 1,
+            "land_fertility_regeneration": 1
+        }
+    },
+    "_integ_land_yield_technology": {
+        "initial": {},
+        "step": {
+            "land_yield_technology_change_rate": 1
+        }
+    },
+    "_integ_nonrenewable_resources": {
+        "initial": {
+            "initial_nonrenewable_resources": 1
+        },
+        "step": {
+            "resource_usage_rate": 1
+        }
+    },
+    "_integ_persistent_pollution": {
+        "initial": {
+            "initial_persistent_pollution": 1
+        },
+        "step": {
+            "persistent_pollution_appearance_rate": 1,
+            "persistent_pollution_assimilation_rate": 1
+        }
+    },
+    "_integ_persistent_pollution_technology": {
+        "initial": {},
+        "step": {
+            "persistent_pollution_technology_change_rate": 1
+        }
+    },
+    "_integ_population_0_to_14": {
+        "initial": {
+            "initial_population_0_to_14": 1
+        },
+        "step": {
+            "births": 1,
+            "deaths_0_to_14": 1,
+            "maturation_14_to_15": 1
+        }
+    },
+    "_integ_population_15_to_44": {
+        "initial": {
+            "initial_population_15_to_44": 1
+        },
+        "step": {
+            "deaths_15_to_44": 1,
+            "maturation_14_to_15": 1,
+            "maturation_44_to_45": 1
+        }
+    },
+    "_integ_population_45_to_64": {
+        "initial": {
+            "initial_population_54_to_64": 1
+        },
+        "step": {
+            "deaths_45_to_64": 1,
+            "maturation_44_to_45": 1,
+            "maturation_64_to_65": 1
+        }
+    },
+    "_integ_population_65_plus": {
+        "initial": {
+            "initial_population_65_plus": 1
+        },
+        "step": {
+            "deaths_65_plus": 1,
+            "maturation_64_to_65": 1
+        }
+    },
+    "_integ_potentially_arable_land": {
+        "initial": {
+            "initial_potentially_arable_land": 1
+        },
+        "step": {
+            "land_development_rate": 1
+        }
+    },
+    "_integ_resource_conservation_technology": {
+        "initial": {},
+        "step": {
+            "resource_technology_change_rate": 1
+        }
+    },
+    "_integ_service_capital": {
+        "initial": {
+            "initial_service_capital": 1
+        },
+        "step": {
+            "service_capital_depreciation": 1,
+            "service_capital_investment": 1
+        }
+    },
+    "_integ_urban_and_industrial_land": {
+        "initial": {
+            "initial_urban_and_industrial_land": 1
+        },
+        "step": {
+            "land_removal_for_urban_and_industrial_use": 1
+        }
+    },
+    "_smooth_agricultural_inputs": {
+        "initial": {
+            "current_agricultural_inputs": 1
+        },
+        "step": {
+            "average_life_agricultural_inputs": 1,
+            "current_agricultural_inputs": 1
+        }
+    },
+    "_smooth_average_industrial_output_per_capita": {
+        "initial": {
+            "industrial_output_per_capita": 1
+        },
+        "step": {
+            "income_expectation_averaging_time": 1,
+            "industrial_output_per_capita": 1
+        }
+    },
+    "_smooth_delayed_industrial_output_per_capita": {
+        "initial": {
+            "industrial_output_per_capita": 1
+        },
+        "step": {
+            "industrial_output_per_capita": 1,
+            "social_adjustment_delay": 1
+        }
+    },
+    "_smooth_delayed_labor_utilization_fraction": {
+        "initial": {},
+        "step": {
+            "labor_utilization_fraction": 1,
+            "labor_utilization_fraction_delay_time": 1
+        }
+    },
+    "_smooth_effective_health_services_per_capita": {
+        "initial": {
+            "health_services_per_capita": 1
+        },
+        "step": {
+            "health_services_impact_delay": 1,
+            "health_services_per_capita": 1
+        }
+    },
+    "_smooth_fertility_control_facilities_per_capita": {
+        "initial": {
+            "fertility_control_allocation_per_capita": 1
+        },
+        "step": {
+            "fertility_control_allocation_per_capita": 1,
+            "health_services_impact_delay": 1
+        }
+    },
+    "_smooth_land_yield_factor_2": {
+        "initial": {
+            "land_yield_technology": 1
+        },
+        "step": {
+            "land_yield_technology": 1,
+            "technology_development_delay": 1
+        }
+    },
+    "_smooth_perceived_food_ratio": {
+        "initial": {
+            "food_ratio": 1
+        },
+        "step": {
+            "food_ratio": 1,
+            "food_shortage_perception_delay": 1
+        }
+    },
+    "_smooth_perceived_life_expectancy": {
+        "initial": {
+            "life_expectancy": 1
+        },
+        "step": {
+            "life_expectancy": 1,
+            "lifetime_perception_delay": 1
+        }
+    },
+    "_smooth_persistent_pollution_generation_factor_2": {
+        "initial": {
+            "persistent_pollution_technology": 1
+        },
+        "step": {
+            "persistent_pollution_technology": 1,
+            "technology_development_delay": 1
+        }
+    },
+    "_smooth_resource_use_fact_2": {
+        "initial": {
+            "resource_conservation_technology": 1
+        },
+        "step": {
+            "resource_conservation_technology": 1,
+            "technology_development_delay": 1
+        }
+    },
+    "absorption_land_gha": {
+        "ha_per_gha": 1,
+        "ha_per_unit_of_pollution": 1,
+        "persistent_pollution_generation_rate": 1
+    },
+    "agricultural_input_per_hectare": {
+        "agricultural_inputs": 1,
+        "arable_land": 1,
+        "fraction_of_agricultural_inputs_for_land_maintenance": 1
+    },
+    "agricultural_inputs": {
+        "_smooth_agricultural_inputs": 1
+    },
+    "agricultural_material_toxicity_index": {},
+    "arable_land": {
+        "_integ_arable_land": 1
+    },
+    "arable_land_in_gigahectares_gha": {
+        "arable_land": 1,
+        "ha_per_gha": 1
+    },
+    "assimilation_half_life": {
+        "assimilation_half_life_in_1970": 1,
+        "assimilation_half_life_multiplier": 1
+    },
+    "assimilation_half_life_in_1970": {},
+    "assimilation_half_life_mult_table": {
+        "__lookup__": null
+    },
+    "assimilation_half_life_multiplier": {
+        "assimilation_half_life_mult_table": 1,
+        "persistent_pollution_index": 1
+    },
+    "average_industrial_output_per_capita": {
+        "_smooth_average_industrial_output_per_capita": 1
+    },
+    "average_life_agricultural_inputs": {},
+    "average_life_of_industrial_capital": {},
+    "average_life_of_land": {
+        "average_life_of_land_normal": 1,
+        "land_life_multiplier_from_land_yield": 1
+    },
+    "average_life_of_land_normal": {},
+    "average_life_of_service_capital": {},
+    "birth_rate": {
+        "births": 1,
+        "population": 1,
+        "thousand": 1
+    },
+    "births": {
+        "population_15_to_44": 1,
+        "reproductive_lifetime": 1,
+        "total_fertility": 1
+    },
+    "capacity_utilization_fraction": {
+        "_active_initial_capacity_utilization_fraction": 1,
+        "time": 1
+    },
+    "capacity_utilization_fraction_table": {
+        "__lookup__": null
+    },
+    "completed_multiplier_from_perceived_lifetime": {
+        "completed_multiplier_from_perceived_lifetime_table": 1,
+        "one_year": 1,
+        "perceived_life_expectancy": 1
+    },
+    "completed_multiplier_from_perceived_lifetime_table": {
+        "__lookup__": null
+    },
+    "consumed_industrial_output": {
+        "fraction_of_industrial_output_allocated_to_consumption": 1,
+        "industrial_output": 1
+    },
+    "consumed_industrial_output_per_capita": {
+        "consumed_industrial_output": 1,
+        "population": 1
+    },
+    "crowding_multiplier_from_industry": {
+        "crowding_multiplier_from_industry_table": 1,
+        "gdp_pc_unit": 1,
+        "industrial_output_per_capita": 1
+    },
+    "crowding_multiplier_from_industry_table": {
+        "__lookup__": null
+    },
+    "current_agricultural_inputs": {
+        "_active_initial_current_agricultural_inputs": 1,
+        "time": 1
+    },
+    "death_rate": {
+        "deaths": 1,
+        "population": 1,
+        "thousand": 1
+    },
+    "deaths": {
+        "deaths_0_to_14": 1,
+        "deaths_15_to_44": 1,
+        "deaths_45_to_64": 1,
+        "deaths_65_plus": 1
+    },
+    "deaths_0_to_14": {
+        "mortality_0_to_14": 1,
+        "population_0_to_14": 1
+    },
+    "deaths_15_to_44": {
+        "mortality_15_to_44": 1,
+        "population_15_to_44": 1
+    },
+    "deaths_45_to_64": {
+        "mortality_45_to_64": 1,
+        "population_45_to_64": 1
+    },
+    "deaths_65_plus": {
+        "mortality_65_plus": 1,
+        "population_65_plus": 1
+    },
+    "delayed_industrial_output_per_capita": {
+        "_smooth_delayed_industrial_output_per_capita": 1
+    },
+    "delayed_labor_utilization_fraction": {
+        "_smooth_delayed_labor_utilization_fraction": 1
+    },
+    "desired_completed_family_size": {
+        "desired_completed_family_size_normal": 1,
+        "family_response_to_social_norm": 1,
+        "social_family_size_normal": 1
+    },
+    "desired_completed_family_size_normal": {},
+    "desired_food_ratio": {},
+    "desired_persistent_pollution_index": {},
+    "desired_resource_use_rate": {},
+    "desired_total_fertility": {
+        "completed_multiplier_from_perceived_lifetime": 1,
+        "desired_completed_family_size": 1
+    },
+    "development_cost_per_hectare": {
+        "development_cost_per_hectare_table": 1,
+        "potentially_arable_land": 1,
+        "potentially_arable_land_total": 1
+    },
+    "development_cost_per_hectare_table": {
+        "__lookup__": null
+    },
+    "education_index": {
+        "education_index_lookup": 1,
+        "gdp_pc_unit": 1,
+        "gdp_per_capita": 1
+    },
+    "education_index_lookup": {
+        "__lookup__": null
+    },
+    "effective_health_services_per_capita": {
+        "_smooth_effective_health_services_per_capita": 1
+    },
+    "family_income_expectation": {
+        "average_industrial_output_per_capita": 2,
+        "industrial_output_per_capita": 1
+    },
+    "family_response_to_social_norm": {
+        "family_income_expectation": 1,
+        "family_response_to_social_norm_table": 1
+    },
+    "family_response_to_social_norm_table": {
+        "__lookup__": null
+    },
+    "fecundity_multiplier": {
+        "fecundity_multiplier_table": 1,
+        "life_expectancy": 1,
+        "one_year": 1
+    },
+    "fecundity_multiplier_table": {
+        "__lookup__": null
+    },
+    "fertility_control_allocation_per_capita": {
+        "fraction_services_allocated_to_fertility_control": 1,
+        "service_output_per_capita": 1
+    },
+    "fertility_control_effectiveness": {
+        "fertility_control_effectiveness_table": 1,
+        "fertility_control_facilities_per_capita": 1,
+        "gdp_pc_unit": 1
+    },
+    "fertility_control_effectiveness_table": {
+        "__lookup__": null
+    },
+    "fertility_control_facilities_per_capita": {
+        "_smooth_fertility_control_facilities_per_capita": 1
+    },
+    "final_time": {},
+    "food": {
+        "arable_land": 1,
+        "land_fraction_harvested": 1,
+        "land_yield": 1,
+        "processing_loss": 1
+    },
+    "food_per_capita": {
+        "food": 1,
+        "population": 1
+    },
+    "food_ratio": {
+        "_active_initial_food_ratio": 1,
+        "time": 1
+    },
+    "food_shortage_perception_delay": {},
+    "fraction_industrial_output_allocated_to_agriculture_table_1": {
+        "__lookup__": null
+    },
+    "fraction_industrial_output_allocated_to_agriculture_table_2": {
+        "__lookup__": null
+    },
+    "fraction_of_agricultural_inputs_allocated_to_land_development": {
+        "fraction_of_agricultural_inputs_allocated_to_land_development_table": 1,
+        "marginal_productivity_of_agricultural_inputs": 1,
+        "marginal_productivity_of_land_development": 1
+    },
+    "fraction_of_agricultural_inputs_allocated_to_land_development_table": {
+        "__lookup__": null
+    },
+    "fraction_of_agricultural_inputs_for_land_maintenance": {
+        "fraction_of_agricultural_inputs_for_land_maintenance_table": 1,
+        "perceived_food_ratio": 1
+    },
+    "fraction_of_agricultural_inputs_for_land_maintenance_table": {
+        "__lookup__": null
+    },
+    "fraction_of_agricultural_inputs_from_persistent_materials": {},
+    "fraction_of_capital_allocated_to_obtaining_resources_1": {
+        "fraction_of_capital_allocated_to_obtaining_resources_1_table": 1,
+        "fraction_of_resources_remaining": 1
+    },
+    "fraction_of_capital_allocated_to_obtaining_resources_1_table": {
+        "__lookup__": null
+    },
+    "fraction_of_capital_allocated_to_obtaining_resources_2": {
+        "fraction_of_capital_allocated_to_obtaining_resources_2_table": 1,
+        "fraction_of_resources_remaining": 1
+    },
+    "fraction_of_capital_allocated_to_obtaining_resources_2_table": {
+        "__lookup__": null
+    },
+    "fraction_of_industrial_capital_allocated_to_obtaining_resources": {
+        "fraction_of_capital_allocated_to_obtaining_resources_1": 1
+    },
+    "fraction_of_industrial_output_allocated_to_agriculture": {
+        "fraction_of_industrial_output_allocated_to_agriculture_1": 1
+    },
+    "fraction_of_industrial_output_allocated_to_agriculture_1": {
+        "food_per_capita": 1,
+        "fraction_industrial_output_allocated_to_agriculture_table_1": 1,
+        "indicated_food_per_capita": 1
+    },
+    "fraction_of_industrial_output_allocated_to_agriculture_2": {
+        "food_per_capita": 1,
+        "fraction_industrial_output_allocated_to_agriculture_table_2": 1,
+        "indicated_food_per_capita": 1
+    },
+    "fraction_of_industrial_output_allocated_to_consumption": {},
+    "fraction_of_industrial_output_allocated_to_consumption_variable": {
+        "fraction_of_industrial_output_allocated_to_consumption_variable_table": 1,
+        "industrial_output_per_capita": 1,
+        "industrial_output_per_capita_desired": 1
+    },
+    "fraction_of_industrial_output_allocated_to_consumption_variable_table": {
+        "__lookup__": null
+    },
+    "fraction_of_industrial_output_allocated_to_investment": {
+        "fraction_of_industrial_output_allocated_to_agriculture": 1,
+        "fraction_of_industrial_output_allocated_to_consumption": 1,
+        "fraction_of_industrial_output_allocated_to_services": 1
+    },
+    "fraction_of_industrial_output_allocated_to_services": {
+        "fraction_of_industrial_output_allocated_to_services_1": 1
+    },
+    "fraction_of_industrial_output_allocated_to_services_1": {
+        "fraction_of_industrial_output_allocated_to_services_table_1": 1,
+        "indicated_services_output_per_capita": 1,
+        "service_output_per_capita": 1
+    },
+    "fraction_of_industrial_output_allocated_to_services_2": {
+        "fraction_of_industrial_output_allocated_to_services_table_2": 1,
+        "indicated_services_output_per_capita": 1,
+        "service_output_per_capita": 1
+    },
+    "fraction_of_industrial_output_allocated_to_services_table_1": {
+        "__lookup__": null
+    },
+    "fraction_of_industrial_output_allocated_to_services_table_2": {
+        "__lookup__": null
+    },
+    "fraction_of_output_in_agriculture": {
+        "food": 2,
+        "industrial_output": 1,
+        "price_of_food": 2,
+        "service_output": 1
+    },
+    "fraction_of_output_in_industry": {
+        "food": 1,
+        "industrial_output": 2,
+        "price_of_food": 1,
+        "service_output": 1
+    },
+    "fraction_of_output_in_services": {
+        "food": 1,
+        "industrial_output": 1,
+        "price_of_food": 1,
+        "service_output": 2
+    },
+    "fraction_of_population_urban": {
+        "fraction_of_population_urban_table": 1,
+        "population": 1,
+        "unit_population": 1
+    },
+    "fraction_of_population_urban_table": {
+        "__lookup__": null
+    },
+    "fraction_of_resources_from_persistent_materials": {},
+    "fraction_of_resources_remaining": {
+        "initial_nonrenewable_resources": 1,
+        "nonrenewable_resources": 1
+    },
+    "fraction_services_allocated_to_fertility_control": {
+        "fraction_services_allocated_to_fertility_control_table": 1,
+        "need_for_fertility_control": 1
+    },
+    "fraction_services_allocated_to_fertility_control_table": {
+        "__lookup__": null
+    },
+    "gdp_index": {
+        "gdp_per_capita": 1,
+        "ref_hi_gdp": 1,
+        "ref_lo_gdp": 2
+    },
+    "gdp_pc_unit": {},
+    "gdp_per_capita": {
+        "gdp_pc_unit": 1,
+        "gdp_per_capita_lookup": 1,
+        "industrial_output_per_capita": 1
+    },
+    "gdp_per_capita_lookup": {
+        "__lookup__": null
+    },
+    "ha_per_gha": {},
+    "ha_per_unit_of_pollution": {},
+    "health_services_impact_delay": {},
+    "health_services_per_capita": {
+        "gdp_pc_unit": 1,
+        "health_services_per_capita_table": 1,
+        "service_output_per_capita": 1
+    },
+    "health_services_per_capita_table": {
+        "__lookup__": null
+    },
+    "human_ecological_footprint": {
+        "absorption_land_gha": 1,
+        "arable_land_in_gigahectares_gha": 1,
+        "total_land": 1,
+        "urban_land_gha": 1
+    },
+    "human_welfare_index": {
+        "education_index": 1,
+        "gdp_index": 1,
+        "life_expectancy_index": 1
+    },
+    "income_expectation_averaging_time": {},
+    "ind_out_in_1970": {},
+    "indicated_food_per_capita": {
+        "indicated_food_per_capita_1": 1
+    },
+    "indicated_food_per_capita_1": {
+        "gdp_pc_unit": 1,
+        "indicated_food_per_capita_table_1": 1,
+        "industrial_output_per_capita": 1
+    },
+    "indicated_food_per_capita_2": {
+        "gdp_pc_unit": 1,
+        "indicated_food_per_capita_table_2": 1,
+        "industrial_output_per_capita": 1
+    },
+    "indicated_food_per_capita_table_1": {
+        "__lookup__": null
+    },
+    "indicated_food_per_capita_table_2": {
+        "__lookup__": null
+    },
+    "indicated_services_output_per_capita": {
+        "indicated_services_output_per_capita_1": 1
+    },
+    "indicated_services_output_per_capita_1": {
+        "gdp_pc_unit": 1,
+        "indicated_services_output_per_capita_table_1": 1,
+        "industrial_output_per_capita": 1
+    },
+    "indicated_services_output_per_capita_2": {
+        "gdp_pc_unit": 1,
+        "indicated_services_output_per_capita_table_2": 1,
+        "industrial_output_per_capita": 1
+    },
+    "indicated_services_output_per_capita_table_1": {
+        "__lookup__": null
+    },
+    "indicated_services_output_per_capita_table_2": {
+        "__lookup__": null
+    },
+    "industrial_capital": {
+        "_integ_industrial_capital": 1
+    },
+    "industrial_capital_depreciation": {
+        "average_life_of_industrial_capital": 1,
+        "industrial_capital": 1
+    },
+    "industrial_capital_investment": {
+        "fraction_of_industrial_output_allocated_to_investment": 1,
+        "industrial_output": 1
+    },
+    "industrial_capital_output_ratio": {},
+    "industrial_capital_output_ratio_2": {
+        "industrial_capital_output_ratio_multiplier_from_land_yield_technology": 1,
+        "industrial_capital_output_ratio_multiplier_from_pollution_technology": 1,
+        "industrial_capital_output_ratio_multiplier_from_resource_conservation_technology": 1
+    },
+    "industrial_capital_output_ratio_multiplier_from_land_yield_technology": {
+        "industrial_capital_output_ratio_multiplier_table": 1,
+        "land_yield_multiplier_from_technology": 1
+    },
+    "industrial_capital_output_ratio_multiplier_from_pollution_table": {
+        "__lookup__": null
+    },
+    "industrial_capital_output_ratio_multiplier_from_pollution_technology": {
+        "industrial_capital_output_ratio_multiplier_from_pollution_table": 1,
+        "persistent_pollution_generation_factor": 1
+    },
+    "industrial_capital_output_ratio_multiplier_from_resource_conservation_technology": {
+        "industrial_capital_output_ratio_multiplier_from_resource_table": 1,
+        "resource_use_factor": 1
+    },
+    "industrial_capital_output_ratio_multiplier_from_resource_table": {
+        "__lookup__": null
+    },
+    "industrial_capital_output_ratio_multiplier_table": {
+        "__lookup__": null
+    },
+    "industrial_material_emissions_factor": {},
+    "industrial_material_toxicity_index": {},
+    "industrial_output": {
+        "capacity_utilization_fraction": 1,
+        "fraction_of_industrial_capital_allocated_to_obtaining_resources": 1,
+        "industrial_capital": 1,
+        "industrial_capital_output_ratio": 1
+    },
+    "industrial_output_per_capita": {
+        "industrial_output": 1,
+        "population": 1
+    },
+    "industrial_output_per_capita_desired": {},
+    "inherent_land_fertility": {},
+    "initial_arable_land": {},
+    "initial_industrial_capital": {},
+    "initial_land_fertility": {},
+    "initial_nonrenewable_resources": {},
+    "initial_persistent_pollution": {},
+    "initial_population_0_to_14": {},
+    "initial_population_15_to_44": {},
+    "initial_population_54_to_64": {},
+    "initial_population_65_plus": {},
+    "initial_potentially_arable_land": {},
+    "initial_service_capital": {},
+    "initial_time": {},
+    "initial_urban_and_industrial_land": {},
+    "jobs": {
+        "potential_jobs_agricultural_sector": 1,
+        "potential_jobs_industrial_sector": 1,
+        "potential_jobs_service_sector": 1
+    },
+    "jobs_per_hectare": {
+        "agricultural_input_per_hectare": 1,
+        "jobs_per_hectare_table": 1,
+        "unit_agricultural_input": 1
+    },
+    "jobs_per_hectare_table": {
+        "__lookup__": null
+    },
+    "jobs_per_industrial_capital_unit": {
+        "gdp_pc_unit": 1,
+        "industrial_output_per_capita": 1,
+        "jobs_per_industrial_capital_unit_table": 1
+    },
+    "jobs_per_industrial_capital_unit_table": {
+        "__lookup__": null
+    },
+    "jobs_per_service_capital_unit": {
+        "gdp_pc_unit": 1,
+        "jobs_per_service_capital_unit_table": 1,
+        "service_output_per_capita": 1
+    },
+    "jobs_per_service_capital_unit_table": {
+        "__lookup__": null
+    },
+    "labor_force": {
+        "labor_force_participation_fraction": 1,
+        "population_15_to_44": 1,
+        "population_45_to_64": 1
+    },
+    "labor_force_participation_fraction": {},
+    "labor_utilization_fraction": {
+        "jobs": 1,
+        "labor_force": 1
+    },
+    "labor_utilization_fraction_delay_time": {},
+    "land_development_rate": {
+        "development_cost_per_hectare": 1,
+        "fraction_of_agricultural_inputs_allocated_to_land_development": 1,
+        "total_agricultural_investment": 1
+    },
+    "land_erosion_rate": {
+        "arable_land": 1,
+        "average_life_of_land": 1
+    },
+    "land_fertility": {
+        "_integ_land_fertility": 1
+    },
+    "land_fertility_degredation": {
+        "land_fertility": 1,
+        "land_fertility_degredation_rate": 1
+    },
+    "land_fertility_degredation_rate": {
+        "land_fertility_degredation_rate_table": 1,
+        "persistent_pollution_index": 1
+    },
+    "land_fertility_degredation_rate_table": {
+        "__lookup__": null
+    },
+    "land_fertility_regeneration": {
+        "inherent_land_fertility": 1,
+        "land_fertility": 1,
+        "land_fertility_regeneration_time": 1
+    },
+    "land_fertility_regeneration_time": {
+        "fraction_of_agricultural_inputs_for_land_maintenance": 1,
+        "land_fertility_regeneration_time_table": 1
+    },
+    "land_fertility_regeneration_time_table": {
+        "__lookup__": null
+    },
+    "land_fr_cult": {
+        "arable_land": 1,
+        "potentially_arable_land_total": 1
+    },
+    "land_fraction_harvested": {},
+    "land_life_multiplier_from_land_yield": {
+        "land_life_multiplier_from_land_yield_1": 1
+    },
+    "land_life_multiplier_from_land_yield_1": {
+        "inherent_land_fertility": 1,
+        "land_life_multiplier_from_land_yield_table_1": 1,
+        "land_yield": 1
+    },
+    "land_life_multiplier_from_land_yield_2": {
+        "inherent_land_fertility": 1,
+        "land_life_multiplier_from_land_yield_table_2": 1,
+        "land_yield": 1
+    },
+    "land_life_multiplier_from_land_yield_table_1": {
+        "__lookup__": null
+    },
+    "land_life_multiplier_from_land_yield_table_2": {
+        "__lookup__": null
+    },
+    "land_removal_for_urban_and_industrial_use": {
+        "urban_and_industrial_land": 1,
+        "urban_and_industrial_land_development_time": 1,
+        "urban_and_industrial_land_required": 1
+    },
+    "land_yield": {
+        "land_fertility": 1,
+        "land_yield_multiplier_from_air_pollution": 1,
+        "land_yield_multiplier_from_capital": 1,
+        "land_yield_multiplier_from_technology": 1
+    },
+    "land_yield_factor_1": {},
+    "land_yield_factor_2": {
+        "_smooth_land_yield_factor_2": 1
+    },
+    "land_yield_multipler_from_air_pollution_1": {
+        "ind_out_in_1970": 1,
+        "industrial_output": 1,
+        "land_yield_multipler_from_air_pollution_table_1": 1
+    },
+    "land_yield_multipler_from_air_pollution_table_1": {
+        "__lookup__": null
+    },
+    "land_yield_multipler_from_air_pollution_table_2": {
+        "__lookup__": null
+    },
+    "land_yield_multiplier_from_air_pollution": {
+        "land_yield_multipler_from_air_pollution_1": 1
+    },
+    "land_yield_multiplier_from_air_pollution_2": {
+        "ind_out_in_1970": 1,
+        "industrial_output": 1,
+        "land_yield_multipler_from_air_pollution_table_2": 1
+    },
+    "land_yield_multiplier_from_capital": {
+        "agricultural_input_per_hectare": 1,
+        "land_yield_multiplier_from_capital_table": 1,
+        "unit_agricultural_input": 1
+    },
+    "land_yield_multiplier_from_capital_table": {
+        "__lookup__": null
+    },
+    "land_yield_multiplier_from_technology": {
+        "land_yield_factor_1": 1
+    },
+    "land_yield_technology": {
+        "_integ_land_yield_technology": 1
+    },
+    "land_yield_technology_change_rate": {},
+    "land_yield_technology_change_rate_multiplier": {
+        "desired_food_ratio": 1,
+        "food_ratio": 1,
+        "land_yield_technology_change_rate_multiplier_table": 1
+    },
+    "land_yield_technology_change_rate_multiplier_table": {
+        "__lookup__": null
+    },
+    "life_expectancy": {
+        "life_expectancy_normal": 1,
+        "lifetime_multiplier_from_crowding": 1,
+        "lifetime_multiplier_from_food": 1,
+        "lifetime_multiplier_from_health_services": 1,
+        "lifetime_multiplier_from_persistent_pollution": 1
+    },
+    "life_expectancy_index": {
+        "life_expectancy": 1,
+        "life_expectancy_index_lookup": 1,
+        "one_year": 1
+    },
+    "life_expectancy_index_lookup": {
+        "__lookup__": null
+    },
+    "life_expectancy_normal": {},
+    "lifetime_multiplier_from_crowding": {
+        "crowding_multiplier_from_industry": 1,
+        "fraction_of_population_urban": 1
+    },
+    "lifetime_multiplier_from_food": {
+        "food_per_capita": 1,
+        "lifetime_multiplier_from_food_table": 1,
+        "subsistence_food_per_capita": 1
+    },
+    "lifetime_multiplier_from_food_table": {
+        "__lookup__": null
+    },
+    "lifetime_multiplier_from_health_services": {
+        "lifetime_multiplier_from_health_services_1": 1,
+        "lifetime_multiplier_from_health_services_2": 1,
+        "time": 1
+    },
+    "lifetime_multiplier_from_health_services_1": {
+        "effective_health_services_per_capita": 1,
+        "gdp_pc_unit": 1,
+        "lifetime_multiplier_from_health_services_1_table": 1
+    },
+    "lifetime_multiplier_from_health_services_1_table": {
+        "__lookup__": null
+    },
+    "lifetime_multiplier_from_health_services_2": {
+        "effective_health_services_per_capita": 1,
+        "gdp_pc_unit": 1,
+        "lifetime_multiplier_from_health_services_2_table": 1
+    },
+    "lifetime_multiplier_from_health_services_2_table": {
+        "__lookup__": null
+    },
+    "lifetime_multiplier_from_persistent_pollution": {
+        "lifetime_multiplier_from_persistent_pollution_table": 1,
+        "persistent_pollution_index": 1
+    },
+    "lifetime_multiplier_from_persistent_pollution_table": {
+        "__lookup__": null
+    },
+    "lifetime_perception_delay": {},
+    "marginal_land_yield_multiplier_from_capital": {
+        "agricultural_input_per_hectare": 1,
+        "marginal_land_yield_multiplier_from_capital_table": 1,
+        "unit_agricultural_input": 1
+    },
+    "marginal_land_yield_multiplier_from_capital_table": {
+        "__lookup__": null
+    },
+    "marginal_productivity_of_agricultural_inputs": {
+        "average_life_agricultural_inputs": 1,
+        "land_yield": 1,
+        "land_yield_multiplier_from_capital": 1,
+        "marginal_land_yield_multiplier_from_capital": 1
+    },
+    "marginal_productivity_of_land_development": {
+        "development_cost_per_hectare": 1,
+        "land_yield": 1,
+        "social_discount": 1
+    },
+    "maturation_14_to_15": {
+        "mortality_0_to_14": 1,
+        "population_0_to_14": 1
+    },
+    "maturation_44_to_45": {
+        "mortality_15_to_44": 1,
+        "population_15_to_44": 1
+    },
+    "maturation_64_to_65": {
+        "mortality_45_to_64": 1,
+        "population_45_to_64": 1
+    },
+    "maximum_total_fertility": {
+        "fecundity_multiplier": 1,
+        "maximum_total_fertility_normal": 1
+    },
+    "maximum_total_fertility_normal": {},
+    "mortality_0_to_14": {
+        "life_expectancy": 1,
+        "mortality_0_to_14_table": 1,
+        "one_year": 1
+    },
+    "mortality_0_to_14_table": {
+        "__lookup__": null
+    },
+    "mortality_15_to_44": {
+        "life_expectancy": 1,
+        "mortality_15_to_44_table": 1,
+        "one_year": 1
+    },
+    "mortality_15_to_44_table": {
+        "__lookup__": null
+    },
+    "mortality_45_to_64": {
+        "life_expectancy": 1,
+        "mortality_45_to_64_table": 1,
+        "one_year": 1
+    },
+    "mortality_45_to_64_table": {
+        "__lookup__": null
+    },
+    "mortality_65_plus": {
+        "life_expectancy": 1,
+        "mortality_65_plus_table": 1,
+        "one_year": 1
+    },
+    "mortality_65_plus_table": {
+        "__lookup__": null
+    },
+    "need_for_fertility_control": {
+        "desired_total_fertility": 1,
+        "maximum_total_fertility": 1
+    },
+    "nonrenewable_resources": {
+        "_integ_nonrenewable_resources": 1
+    },
+    "one_year": {},
+    "per_capita_resource_use_mult_table": {
+        "__lookup__": null
+    },
+    "per_capita_resource_use_multiplier": {
+        "gdp_pc_unit": 1,
+        "industrial_output_per_capita": 1,
+        "per_capita_resource_use_mult_table": 1
+    },
+    "perceived_food_ratio": {
+        "_smooth_perceived_food_ratio": 1
+    },
+    "perceived_life_expectancy": {
+        "_smooth_perceived_life_expectancy": 1
+    },
+    "persistent_pollution": {
+        "_integ_persistent_pollution": 1
+    },
+    "persistent_pollution_appearance_rate": {
+        "_delay_persistent_pollution_appearance_rate": 1
+    },
+    "persistent_pollution_assimilation_rate": {
+        "assimilation_half_life": 1,
+        "persistent_pollution": 1
+    },
+    "persistent_pollution_generation_agriculture": {
+        "agricultural_input_per_hectare": 1,
+        "agricultural_material_toxicity_index": 1,
+        "arable_land": 1,
+        "fraction_of_agricultural_inputs_from_persistent_materials": 1
+    },
+    "persistent_pollution_generation_factor": {
+        "persistent_pollution_generation_factor_1": 1
+    },
+    "persistent_pollution_generation_factor_1": {},
+    "persistent_pollution_generation_factor_2": {
+        "_smooth_persistent_pollution_generation_factor_2": 1
+    },
+    "persistent_pollution_generation_industry": {
+        "fraction_of_resources_from_persistent_materials": 1,
+        "industrial_material_emissions_factor": 1,
+        "industrial_material_toxicity_index": 1,
+        "per_capita_resource_use_multiplier": 1,
+        "population": 1
+    },
+    "persistent_pollution_generation_rate": {
+        "persistent_pollution_generation_agriculture": 1,
+        "persistent_pollution_generation_factor": 1,
+        "persistent_pollution_generation_industry": 1
+    },
+    "persistent_pollution_in_1970": {},
+    "persistent_pollution_index": {
+        "persistent_pollution": 1,
+        "persistent_pollution_in_1970": 1
+    },
+    "persistent_pollution_intensity_industry": {
+        "industrial_output": 1,
+        "persistent_pollution_generation_factor": 1,
+        "persistent_pollution_generation_industry": 1
+    },
+    "persistent_pollution_technology": {
+        "_integ_persistent_pollution_technology": 1
+    },
+    "persistent_pollution_technology_change_mult_table": {
+        "__lookup__": null
+    },
+    "persistent_pollution_technology_change_multiplier": {
+        "desired_persistent_pollution_index": 1,
+        "persistent_pollution_index": 1,
+        "persistent_pollution_technology_change_mult_table": 1
+    },
+    "persistent_pollution_technology_change_rate": {},
+    "persistent_pollution_transmission_delay": {},
+    "population": {
+        "population_0_to_14": 1,
+        "population_15_to_44": 1,
+        "population_45_to_64": 1,
+        "population_65_plus": 1
+    },
+    "population_0_to_14": {
+        "_integ_population_0_to_14": 1
+    },
+    "population_15_to_44": {
+        "_integ_population_15_to_44": 1
+    },
+    "population_45_to_64": {
+        "_integ_population_45_to_64": 1
+    },
+    "population_65_plus": {
+        "_integ_population_65_plus": 1
+    },
+    "potential_jobs_agricultural_sector": {
+        "arable_land": 1,
+        "jobs_per_hectare": 1
+    },
+    "potential_jobs_industrial_sector": {
+        "industrial_capital": 1,
+        "jobs_per_industrial_capital_unit": 1
+    },
+    "potential_jobs_service_sector": {
+        "jobs_per_service_capital_unit": 1,
+        "service_capital": 1
+    },
+    "potentially_arable_land": {
+        "_integ_potentially_arable_land": 1
+    },
+    "potentially_arable_land_total": {},
+    "price_of_food": {},
+    "processing_loss": {},
+    "ref_hi_gdp": {},
+    "ref_lo_gdp": {},
+    "reproductive_lifetime": {},
+    "resource_conservation_technology": {
+        "_integ_resource_conservation_technology": 1
+    },
+    "resource_technology_change_mult_table": {
+        "__lookup__": null
+    },
+    "resource_technology_change_rate": {},
+    "resource_technology_change_rate_multiplier": {
+        "desired_resource_use_rate": 1,
+        "resource_technology_change_mult_table": 1,
+        "resource_usage_rate": 1
+    },
+    "resource_usage_rate": {
+        "per_capita_resource_use_multiplier": 1,
+        "population": 1,
+        "resource_use_factor": 1
+    },
+    "resource_use_fact_2": {
+        "_smooth_resource_use_fact_2": 1
+    },
+    "resource_use_factor": {},
+    "resource_use_intensity": {
+        "industrial_output": 1,
+        "resource_usage_rate": 1
+    },
+    "saveper": {
+        "time_step": 1
+    },
+    "service_capital": {
+        "_integ_service_capital": 1
+    },
+    "service_capital_depreciation": {
+        "average_life_of_service_capital": 1,
+        "service_capital": 1
+    },
+    "service_capital_investment": {
+        "fraction_of_industrial_output_allocated_to_services": 1,
+        "industrial_output": 1
+    },
+    "service_capital_output_ratio": {},
+    "service_output": {
+        "capacity_utilization_fraction": 1,
+        "service_capital": 1,
+        "service_capital_output_ratio": 1
+    },
+    "service_output_per_capita": {
+        "population": 1,
+        "service_output": 1
+    },
+    "social_adjustment_delay": {},
+    "social_discount": {},
+    "social_family_size_normal": {
+        "delayed_industrial_output_per_capita": 1,
+        "gdp_pc_unit": 1,
+        "social_family_size_normal_table": 1
+    },
+    "social_family_size_normal_table": {
+        "__lookup__": null
+    },
+    "subsistence_food_per_capita": {},
+    "technology_development_delay": {},
+    "thousand": {},
+    "time_step": {},
+    "total_agricultural_investment": {
+        "fraction_of_industrial_output_allocated_to_agriculture": 1,
+        "industrial_output": 1
+    },
+    "total_fertility": {
+        "desired_total_fertility": 1,
+        "fertility_control_effectiveness": 2,
+        "maximum_total_fertility": 2
+    },
+    "total_land": {},
+    "unit_agricultural_input": {},
+    "unit_population": {},
+    "urban_and_industrial_land": {
+        "_integ_urban_and_industrial_land": 1
+    },
+    "urban_and_industrial_land_development_time": {},
+    "urban_and_industrial_land_required": {
+        "population": 1,
+        "urban_and_industrial_land_required_per_capita": 1
+    },
+    "urban_and_industrial_land_required_per_capita": {
+        "gdp_pc_unit": 1,
+        "industrial_output_per_capita": 1,
+        "urban_and_industrial_land_required_per_capita_table": 1
+    },
+    "urban_and_industrial_land_required_per_capita_table": {
+        "__lookup__": null
+    },
+    "urban_land_gha": {
+        "ha_per_gha": 1,
+        "urban_and_industrial_land": 1
+    }
+}
